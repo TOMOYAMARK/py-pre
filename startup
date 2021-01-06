@@ -1,0 +1,5 @@
+#!/bin/bash
+
+sudo pigpiod
+sudo python3 ./pyserver/streaming_server.py &
+sudo python3 ./pyserver/servo_server.py &
